@@ -14,8 +14,9 @@ Key features:
 Quick start:
 1. Install dependencies
    - `npm i` (or `pnpm i`, `yarn`)
-2. Start dev server (Vite is configured for port 3000)
+2. Start dev server (Slidev/Vite are configured for port 3000)
    - `npm run dev`
+   - The server binds to 0.0.0.0:3000 and does not auto-open a browser inside containers.
 3. Open the slide deck
    - visit http://localhost:3000
 
